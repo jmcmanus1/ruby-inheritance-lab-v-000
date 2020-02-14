@@ -1,11 +1,11 @@
-class Student < User 
-	attr_accessor :knowledge 
+class Student < User
+	attr_accessor :knowledge
 
 	def initialize
 		@knowledge = []
 	end
 
-	def knowledge 
+	def knowledge
 		@knowledge
 	end
 
@@ -15,3 +15,4 @@ class Student < User
 
 
 end
+binding.pry
